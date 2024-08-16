@@ -1,0 +1,11 @@
+/* Estilos para los divs */
+.div1, .div2 {
+    border: 2px solid red;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Estilos específicos para el div2 */
+.div2 {
+    border-left: 5px solid blue;
+}

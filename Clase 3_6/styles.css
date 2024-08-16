@@ -1,0 +1,68 @@
+/* Estilo general para el body */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Estilo para el párrafo */
+p.texto {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px; /* Agregamos un margen inferior para separar el párrafo */
+}
+
+/* Media Queries */
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 600px) {
+    p.texto {
+        font-size: 14px;
+        color: #007BFF;
+        text-align: center; /* Centramos el texto en pantallas pequeñas */
+    }
+}
+
+/* Estilos para pantallas medianas */
+@media (min-width: 601px) and (max-width: 900px) {
+    p.texto {
+        font-size: 18px;
+        color: #0056b3;
+        text-align: left; /* Alineamos el texto a la izquierda en pantallas medianas */
+    }
+}
+
+/* Estilos para pantallas grandes */
+@media (min-width: 901px) {
+    p.texto {
+        font-size: 20px;
+        color: #003f7f;
+        text-align: justify; /* Justificamos el texto en pantallas grandes */
+    }
+}
+
+/* Estilo para el título */
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px; /* Añadimos más espacio debajo del título */
+    text-align: center; /* Centramos el título */
+}
+
+/* Estilo para el footer */
+footer {
+    text-align: center;
+    margin-top: 50px; /* Añadimos un margen superior al footer */
+}
+
+/* Estilo para los enlaces del footer */
+footer a {
+    text-decoration: none;
+    color: #007BFF;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #0056b3;
+}

@@ -1,0 +1,86 @@
+/* Estilo general para el body */
+body {
+    background-color: #3D5A80;
+    font-family: Verdana, sans-serif;
+    color: #f7ede2;
+}
+
+/* Estilo para el h1 */
+h1 {
+    color: rgb(238, 108, 77);
+}
+
+/* Estilo para los h2 */
+h2 {
+    color: #E0FBFC;
+}
+
+/* Estilo para los li */
+li {
+    color: #ffffff; /* Blanco */
+}
+
+/* Estilo para el elemento con ID 'bordeado' */
+#bordeado {
+    border: 3px solid white;
+}
+
+/* Estilo para los elementos con clase 'aloha' */
+.aloha {
+    background-color: #293241;
+    color: white;
+}
+
+/* Estilo para todos los input */
+input {
+    border: 2px dashed rgb(238, 108, 77);
+}
+
+/* Estilo para los p dentro de un div */
+div > p {
+    font-size: 150%;
+    color: #98C1D9;
+}
+
+/* Estilo para los input con type="text" */
+input[type="text"] {
+    background-color: #E0FBFC; /* Celeste */
+}
+
+/* Extra Credit */
+
+/* Estilo para los a visitados */
+a:visited {
+    color: white;
+}
+
+/* Estilo para los p dentro del tercer div */
+div:nth-of-type(3) > p {
+    background-color: blue;
+}
+
+/* Borde blanco de 4px al segundo p dentro del tercer div */
+div:nth-of-type(3) > p:nth-of-type(2) {
+    border: 4px solid white;
+}
+
+/* Estilo para el span dentro del tercer div */
+div:nth-of-type(3) span {
+    background-color: white;
+}
+
+/* Margen a la izquierda para los checkbox seleccionados */
+input[type="checkbox"]:checked {
+    margin-left: 60px;
+}
+
+/* Estilo para que los label estén en mayúscula */
+label {
+    text-transform: uppercase;
+}
+
+/* Primera letra del elemento con ID 'ultimo' */
+#ultimo::first-letter {
+    font-size: 300%;
+    background-color: orange;
+}

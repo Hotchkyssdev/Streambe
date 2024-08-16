@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1 align="center">Formulario</h1>
+    <form action="" method="post">
+        <table align="center" border="3">
+            <tr>
+                <td><b>Nombre:</b>
+                    <input type="text" name="nombre" placeholder="Tomás" required>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Apellido:</b>
+                    <input type="text" name="apellido" placeholder="Hotchkyss" required>
+                </td>
+            </tr>
+            <tr>
+                <td><b>DNI:</b>
+                    <input type="number" name="dni" placeholder="34232542" required>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Datos del Curso:</b>
+                    <select name="curso">
+                        <option>Desarrollador Web FullStack</option>
+                        <option>Desarrollador FrontEnd</option>
+                        <option>Desarrollador BackEnd</option>
+                        <option>Desarrollador Mobile</option>
+                        <option>Desarrollador de Videojuegos</option>
+                        <option>Desarrollador de Inteligencia Artificial</option>
+                        <option>Desarrollador Blockchain</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Experiencia Previa:</b>
+                    <br>
+                    <input type="checkbox"> Programador
+                    <br>
+                    <input type="checkbox"> Diseñador UX
+                    <br>
+                    <input type="checkbox"> Marketing Dígital
+                </td>
+            </tr>
+            <tr>
+                <td><b>¿Porqué desea unirse al curso?</b>
+                    <input type="textarea" name="deseo" placeholder="Deseo unirme al curso..." required>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Suba su CV aquí:</b>
+                    <input type="file" name="cv">
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <input type="submit" name="boton" value="ENVIAR">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
