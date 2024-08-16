@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">Acerca de mí</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header id="home" class="header">
+        <img src="fotocv.jpg" alt="Tu Foto" class="profile-pic">
+        <h1>Gersom Tomás Hotchkyss</h1>
+        <p>Desarrollador Web</p>
+    </header>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <h2>Portfolio</h2>
+        <hr>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="proyecto1.png" alt="Proyecto 1" class="project-img">
+                    <p>Aventura Gráfica de Dark Souls I en HTML5 y CSS3</p>
+                </div>
+                <div class="col">
+                    <img src="proyecto2.png" alt="Proyecto 2" class="project-img">
+                    <p>Portfolio de Fotos en HTML5 y CSS3</p>
+                </div>
+                <div class="col">
+                    <img src="proyecto3.png" alt="Proyecto 3" class="project-img">
+                    <p>Dibujo de un emoji sonriente en HTML5 y CSS3</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about">
+        <h2>Acerca de mí</h2>
+        <hr>
+        <p>Soy un apasionado del mundo tecnológico. Mi primer contacto con la tecnología fue a los 4 años, cuando comencé a usar computadoras para jugar videojuegos de series animadas de la época. A los 15 años, descubrí el desarrollo de software y me enamoré al instante. En mi colegio secundario técnico, aprendí algoritmos y lenguajes de programación como Pascal, Python y SQL. Desde entonces, he continuado mi formación de manera autodidacta, con el objetivo de dedicarme profesionalmente al desarrollo de software.</p>
+        <br>
+        <p>Mis habilidades técnicas son:
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>GitHub</li>
+            <li>GIT</li>
+            <li>PHP</li>
+            <li>MySQL</li>
+        </p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contacto</h2>
+        <hr>
+        <form>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Derechos de autor © 2024 Gersom Tomás Hotchkyss. Todos los derechos reservados.</p>
+        <p>Conectate conmigo en:
+            <a href="https://www.canva.com/design/DAGHL89njGk/F_J8EThsJ-kT5MBXghKXJA/view?utm_content=DAGHL89njGk&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank">CV</a> | 
+            <a href="https://github.com/HotchkyssTomas/Streambe" target="_blank">GitHub</a> | 
+            <a href="https://www.instagram.com/gtomii_h/?next=%2F" target="_blank">Instagram</a>
+        </p>
+    </footer>
+</body>
+</html>

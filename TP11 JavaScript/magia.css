@@ -1,0 +1,9 @@
+#magia {
+    width: 710px;
+    height: 600px;
+    background-color: transparent;
+    position: absolute;
+    top: 50px; 
+    left: 50px; 
+    cursor: pointer;
+}
