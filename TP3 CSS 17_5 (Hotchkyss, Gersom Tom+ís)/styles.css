@@ -1,0 +1,37 @@
+.carnivoros {
+    background-color: darkred;
+}
+
+.herbivoros {
+    background-color: lightgreen;
+}
+
+#trex {
+    font-size: 24px;
+    color: orange;
+}
+
+#triceratops {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.voladores {
+    text-shadow: 2px 2px 5px gray;
+}
+
+.acuaticos {
+    font-style: italic;
+    color: blue;
+}
+
+.guias {
+    text-align: center;
+    color: brown;
+}
+
+.atracciones {
+    letter-spacing: 2px;
+    border: 2px solid #ccc;
+    padding: 10px;
+}

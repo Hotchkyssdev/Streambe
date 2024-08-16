@@ -1,0 +1,99 @@
+/* Estilo general para el body */
+body {
+    background-color: #f0f0f0;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Contenedor principal */
+#container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para el título h1 */
+h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    border-bottom: 2px solid red;
+    padding-bottom: 10px;
+    margin-left: 1.4%;
+    width: auto;
+    display: inline-block;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* Estilo para las imágenes */
+img {
+    width: 30%;
+    margin: 1.4%;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para el footer */
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #E63946;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #F1FAEE;
+    text-decoration: underline;
+}
+
+/* Estilo para el link de contacto */
+footer a {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: #fff;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+footer a:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+/* Agregar animaciones */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#container {
+    animation: fadeIn 1s ease-in-out;
+}
+
+img {
+    animation: fadeIn 1s ease-in-out;
+}

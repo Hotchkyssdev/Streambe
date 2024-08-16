@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.pancho {
+    width: 200px;
+    height: 100px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bun {
+    width: 200px;
+    height: 50px;
+    background-color: #d4a373;
+    border-radius: 50px;
+    position: absolute;
+}
+
+.top-bun {
+    top: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    z-index: 1;
+}
+
+.bottom-bun {
+    bottom: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    z-index: 1;
+}
+
+.sausage {
+    width: 180px;
+    height: 40px;
+    background-color: #c1440e;
+    border-radius: 20px;
+    margin-top: 5px;
+    position: absolute;
+    top: 30px;
+    z-index: 2;
+}
+
