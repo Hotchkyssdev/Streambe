@@ -1,0 +1,112 @@
+.App {
+  text-align: center;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Transiciones suaves para el cambio de tema */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Transiciones suaves para el cambio de tema */
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.product-item {
+  background: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+  width: 250px;
+  transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+}
+
+.add-to-cart-button {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.2s ease; 
+}
+
+.add-to-cart-button:hover {
+  background: #0056b3;
+  transform: scale(1.02);
+}
+
+.cart-page ul {
+  list-style: none;
+  padding: 0;
+}
+
+.cart-page li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.cart-page img {
+  margin-right: 10px;
+}
+
+.light-mode .App-header {
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.light-mode .product-item {
+  background: #fff;
+  color: #333;
+}
+
+.dark-mode .App-header {
+  background-color: #343a40;
+  color: #f9f9f9;
+}
+
+.dark-mode .product-item {
+  background: #495057;
+  color: #f9f9f9;
+}
